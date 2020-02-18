@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SMK Telkom Malang</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style media="screen">
+		*{
+			box-sizing: border-box;
+		}
+
+		[class*="col-"] {
+			padding: 15px;
+			float: left;
+			width: 100%;
+		}
+
+
+		@media only screen and (min-width: 600px) {
+			/*for tablets*/
+			.col-s-1 {width: 8.33%;}
+			.col-s-2 {width: 16.66%;}
+			.col-s-3 {width: 25%;}
+			.col-s-4 {width: 33.33%;}
+			.col-s-5 {width: 41.66%;}
+			.col-s-6 {width: 50%;}
+			.col-s-7 {width: 58.33%;}
+			.col-s-8 {width: 66.66%;}
+			.col-s-9 {width: 75%;}
+			.col-s-10 {width: 83.33%;}
+			.col-s-11 {width: 91.66%;}
+			.col-s-12 {width: 100%;}
+			.header {
+				background-color: lightgreen;
+			}
+		}
+
+		@media only screen and (min-width: 768px) {
+			/*for desktop*/
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+			.header {
+				background-color: lightgreen;
+			}
+		}
+
+
+		body{
+			background-color: lightyellow;
+		}
+
+		.header{
+			background-color: lightgreen;
+			height: 100px;
+		}
+
+		.header h1{
+			font-family: times new roman;
+		}
+
+		.container{
+			width: 75%;
+			
+			margin: 0 auto;
+		}
+
+
+		.sidebar{
+			height: 450px;
+		}
+
+		.sidebar ul{
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			overflow: hidden;
+			background: pink;
+		}
+
+		.sidebar ul li{
+			float: left;
+			width: 100%;
+			border-bottom: 2px solid grey;
+
+		}
+
+		.sidebar ul li a{
+			display: block;
+			text-decoration: none;
+			color: black;
+			padding: 20px;
+			text-align: left;
+			font-size: 20px;
+		}
+
+		.content{
+			text-align: justify;
+			height: 1100px;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			width: 75%;
+			background: #cc99ff;
+			float: right;
+		}
+
+		.jateng{
+			font-family: arial;
+			font-size: 25px;
+
+		}
+
+		.image{
+			text-align: center;
+		}
+
+		.audio{
+			text-align: center;
+		}
+
+		.desc{
+			font-size: 22px;
+			margin-left: 45px;
+			margin-right: 45px;
+		}
+
+		.footer{
+			background: lightblue;
+			color: black;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+
+		<!-- header -->
+		<div class="col-12 header">
+			<h1 align="center">T a u&emsp;N g g a k&emsp;S i h ? </h1>
+		</div>
+
+		<!-- menu -->
+		<div class="col-3 col-s-5 sidebar">
+			<ul>
+				<li><a href="Beranda.html">Beranda</a></li>
+				<li><a href="Gunung kidul.html">Benarkah Gunung Kidul Berasal Dari Dasar Laut?</a></li>
+				<li><a href="Lawang sewu.html">Saksi Bisu Pertempuran 5 Hari Semarang</a></li>
+				<li><a href="Borobudur.html">Candi Borobudur Yang Pernah Menghilang</a></li>
+				<li><a href="Gudeg.html">It's Good, Dek!</a></li>
+				<li><a href="Lokananta.html">Lokananta, Studio Musik Pertama di Indonesia</a></li>
+				<li><a href="Mobil.html">Siapa Pemilik Mobil Pertama di Indonesia?</a></li>
+				<li><a href="Syailendra.html">Mata Uang Tertua di Nusantara</a></li>
+			</ul>
+		</div>
+
+		<!-- konten -->
+		<div class="col-9 col-s-7 content">
+			<p class="jateng" align="center">It's Good, Dek!</p>
+			
+			<div class="col-12 image">
+				<img src="gudeg.jpg" align="center" width="50%">
+			</div>
+
+			<p align="center">i m a g e :&emsp;g u d e g</p>
+
+			<br>
+			<div class="col-12 audio">
+				<audio controls>
+					<source class="audio" src="gudeg.mp3" type="audio/mp3">
+				</audio>
+			</div>
+			
+			<br><br><br><br><br>
+			<p class="desc">
+				&emsp;&emsp;&emsp;Ternyata salah satu makanan terkenal dari Jawa Tengah juga memiliki sejarah loh! Salah satu sejarah tentang Gudeg, menyebutkan bahwa di Jogja pada zaman penjajahan Inggris tinggallah warga negara Inggris beristrikan perempuan Jawa, orang Inggris tersebut memanggil istrinya dengan sebutan “dek”. Suatu hari ketika suami pergi bekerja, istrinya bingung ingin memasak apa. Akhirnya ia teringat resep turun temurun dari keluarganya yang menggunakan nangka muda, mulailah ia memasak.
+			</p>
+
+			
+			<p class="desc">
+				&emsp;&emsp;&emsp;Sampainya di rumah, sang suami langsung menuju meja makan. Ia menyantap dengan lahap dan selesainya makan, suami berkebangsaan Inggris itu berkata, “good dek! it’s good dek!” Istrinya terkejut dan mulai menceritakan ke tetangga bahwa suaminya senang sekali dimasakkan resep turun temurun itu. Dan selesai makan suami selalu berkata “good dek!” Konon dari sinilah makanan itu mulai disebut Gudeg.
+			</p>
+		</div>
+
+		<!-- footer -->
+		<div class="col-12 footer" align="center">
+			&copy; Tasya Sakina 2020.
+		</div>
+
+	</div>
+</body>
+
+</html>
